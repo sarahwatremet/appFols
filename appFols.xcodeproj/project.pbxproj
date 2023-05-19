@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0063C50B2A176599005FDCE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0063C50A2A176599005FDCE6 /* GoogleService-Info.plist */; };
 		00C1978B2A0E2A5300236D30 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 00C1978A2A0E2A5300236D30 /* GoogleSignIn */; };
 		00C1978D2A0E2A5300236D30 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 00C1978C2A0E2A5300236D30 /* GoogleSignInSwift */; };
-		00C197922A0E3A8600236D30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00C197912A0E3A8600236D30 /* GoogleService-Info.plist */; };
 		00C197942A0E44ED00236D30 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C197932A0E44ED00236D30 /* AuthenticationViewModel.swift */; };
 		00C1979E2A0E7A4D00236D30 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C1979D2A0E7A4D00236D30 /* AuthenticationManager.swift */; };
 		00C197A02A0E805800236D30 /* SignOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C1979F2A0E805800236D30 /* SignOutView.swift */; };
@@ -27,8 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0063C50A2A176599005FDCE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Documents/appFols copie/appFols/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		00C1978E2A0E2C7600236D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		00C197912A0E3A8600236D30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		00C197932A0E44ED00236D30 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		00C1979D2A0E7A4D00236D30 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		00C1979F2A0E805800236D30 /* SignOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutView.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				00C1978E2A0E2C7600236D30 /* Info.plist */,
-				00C197912A0E3A8600236D30 /* GoogleService-Info.plist */,
+				0063C50A2A176599005FDCE6 /* GoogleService-Info.plist */,
 				00CF3F5C29FBCC04004ECF11 /* AppFolsApp.swift */,
 				00C197A22A0E9E7400236D30 /* RootView.swift */,
 				00C197A12A0E985400236D30 /* Authentication */,
@@ -181,7 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00CF3F6429FBCC06004ECF11 /* Preview Assets.xcassets in Resources */,
-				00C197922A0E3A8600236D30 /* GoogleService-Info.plist in Resources */,
+				0063C50B2A176599005FDCE6 /* GoogleService-Info.plist in Resources */,
 				00CF3F7829FC0A28004ECF11 /* Color.xcassets in Resources */,
 				00CF3F6129FBCC06004ECF11 /* Assets.xcassets in Resources */,
 			);
